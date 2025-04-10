@@ -11,7 +11,7 @@ const SingleCar = ({
   rating,
   type,
   numOfDoors,
-  numOfPassengers,
+  numOfPassengerst,
 }) => {
   return (
     <div className="w-full max-w-[295px] h-[413px] rounded-[14px] border border-[#f1f1f1] shadow-lg mt-[40px] mx-auto md:mx-0">
