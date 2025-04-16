@@ -3,3 +3,11 @@
 .layout{
     @apply max-w-[1240px] mx-auto px-2.5
 }
+
+@keyframes scroll-left {
+    0% {transform: translateX(0);}
+    100% {transform: translateX(-50%);}
+}
+.scrolling {
+    animation: scroll-left 10s linear infinite;
+}

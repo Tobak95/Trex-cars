@@ -13,7 +13,7 @@ const Featured = () => {
     selected === "all" ? cars : cars.filter((car) => car.category === selected);
 
   return (
-    <div className="layout ">
+    <div className="layout mt-10 ">
       <div className="max-w-[517px]">
         <h1 className="text-[38px] font-bold text-[#1d1d1d]">
           Featured Vechicles
